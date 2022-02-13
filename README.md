@@ -1,4 +1,4 @@
-# lab2_assignment
+# Final Project
 
 A new Flutter project.
 
