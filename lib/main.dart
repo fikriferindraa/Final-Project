@@ -53,12 +53,7 @@ class _SplashPageState extends State<SplashPage> {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        Container(
-          decoration: const BoxDecoration(
-              image: DecorationImage(
-                  image: AssetImage('assets/images/splashpage.png'),
-                  fit: BoxFit.cover)),
-        ),
+        const Scaffold(backgroundColor: Color(0xff2C3A47)),
         Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
